@@ -11,7 +11,7 @@
         padding: 0;
         height: 100vh;
         width: 100vw;
-        background-color: #ffd900;
+        background-color: gold;
         display: grid;
         grid-template-rows: 1fr auto;
       }
@@ -28,6 +28,16 @@
         margin: 20px auto;
         max-width: 90%;
       }
+
+      footer a {
+        color: black;
+        transition: color .2s;
+      }
+
+      footer a:hover,
+      footer a:focus {
+        color: royalblue;
+      }
     </style>
   </head>
   <body>
@@ -41,7 +51,7 @@
       </p>
     </main>
     <footer>
-      Made is a strong word, but this was made by Dan Fishgold.
+      Made is a strong word, but this was <a href="https://github.com/danfishgold/bee">made</a> with ♥︎ by <a href="https://danfishgold.com">Dan Fishgold</a>.
     </footer>
   </body>
 </html>
